@@ -208,7 +208,7 @@ We will use a larger dataset for evaluation. You can download it
 
 Submit a single compressed tar file called submission.tar.gz and send it to yingfeng dot zhang AT gmail dot com.
 Submission files must be no larger than 5 MB - larger files will be
-rejected. Each submission must include the following files/directories:
+rejected. 
 
 You can use the starter package, which has the required format, as a
 starting point. You are also required to submit a **technical report** on your improvements in English in either markdown or PDF format.
