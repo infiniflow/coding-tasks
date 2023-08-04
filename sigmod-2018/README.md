@@ -210,21 +210,8 @@ Submit a single compressed tar file called submission.tar.gz and send it to ying
 Submission files must be no larger than 5 MB - larger files will be
 rejected. Each submission must include the following files/directories:
 
-- **run.sh**:
-This script is responsible for running your executable, which should
-interact with our test harness according to the testing protocol,
-reading from standard input and writing results to standard output.
-- **Source Files**:
-The package must contain all of the source code.
-- **compile.sh**:
-This shell script must be able to compile the source contained in the
-submission directory. The produced executable file(s) must be locate
-within the submission directory. The benchmark environment is isolated
-and without internet access. You will have to provide all files required
-for successful compilation.
-
 You can use the starter package, which has the required format, as a
-starting point.
+starting point. You are also required to submit a **technical report** on your improvements in English in either markdown or PDF format.
 
 ## Rules
 
