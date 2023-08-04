@@ -182,9 +182,7 @@ folder.
 Our testing infrastructure will evaluate each submission by unpacking the
 submission file, compiling the submitted code (using your submitted
 compile.sh script), and then running a series of tests (using your
-submitted run.sh script). Extraction time is limited to 10 seconds,
-and compilation time is limited to 60 seconds. Submissions that exceed
-these limits will not be tested at all.
+submitted run.sh script). 
 
 Each test uses the test harness to supply an initial dataset and a
 workload to your submitted program. The total time for each test is
@@ -202,22 +200,20 @@ testing protocol description, initial import of relations is not included
 in a submission's score. The leaderboard will show the best rankable
 submission for each team that has at least one such submission.
 
-The submission portal and leaderboard will be up soon.
+We will use a larger dataset for evaluation. You can download it
+[here](http://dsg.csail.mit.edu/data/public.zip).
+
 
 ## Submission
 
-Submit a single compressed tar file called submission.tar.gz.
-You can use package.sh to do that.
+Submit a single compressed tar file called submission.tar.gz and send it to yingfeng dot zhang AT gmail dot com.
 Submission files must be no larger than 5 MB - larger files will be
 rejected. Each submission must include the following files/directories:
+
 - **run.sh**:
 This script is responsible for running your executable, which should
 interact with our test harness according to the testing protocol,
 reading from standard input and writing results to standard output.
-- **readme.txt**:
-This file must contain information about all team members, a brief
-description of the solution, a list of the third party code used and
-their licenses.
 - **Source Files**:
 The package must contain all of the source code.
 - **compile.sh**:
@@ -236,25 +232,6 @@ starting point.
 licensed software (i.e., using an OSI-approved license). For source code from
 books or public articles, clear reference and attribution must be made.
 - Please keep your solution private and not make it publicly available.
-
-## Updates
-When we release more details about the competition, we will add them under this
-section. 
-
-- A larger dataset is now available for testing. You can download it
-[here](http://dsg.csail.mit.edu/data/public.zip).
-- System specifications of the testing environment (r5.4xlarge instance on AWS):
-
-| | |
-| ----------- | ----------- |
-| Processor       | Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz       |
-| Configuration   | 8 cores / 16 hyperthreads        |
-| Main memory     | 128 GB RAM        |
-| OS              | Ubuntu 18.04        |
-| Software        | autoconf=2.69-11, automake=1:1.15.1-3ubuntu2, cmake=3.10.2-1ubuntu2.18.04.1, gcc=4:7.4.0-1ubuntu2.3, libjemalloc-dev=3.6.0-11, libboost-dev=1.65.1.0ubuntu1, clang-5.0=1:5.0.1-4, libtbb-dev=2017~U7-8        |
-
-- Submission portal is now available. Please let the TAs know if you
-didn't get an email with details. 
 
 ## Acknowledgements
 
