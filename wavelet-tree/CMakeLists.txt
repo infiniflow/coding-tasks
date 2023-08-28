@@ -10,3 +10,4 @@ find_package(Threads)
 
 add_subdirectory(src bin)
 
+add_subdirectory(test)
