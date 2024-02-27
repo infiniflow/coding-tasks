@@ -1,0 +1,23 @@
+{
+  "C_Cpp.errorSquiggles": "disabled",
+  "C_Cpp.intelliSenseEngineFallback": "disabled",
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "C_Cpp.autocomplete": "disabled",
+  "clangd.arguments": [
+    "--background-index",
+    "--compile-commands-dir=${workspaceFolder}/sigmod-2018/build",
+    "-j=14",
+    "--query-driver=/root/workspace/ldb_toolchain/bin/clang++",
+    "--clang-tidy",
+    "--clang-tidy-checks=performance-*,bugprone-*",
+    "--all-scopes-completion",
+    "--completion-style=detailed",
+    "--header-insertion=iwyu"
+  ],
+  
+  "clangd.path": "/root/workspace/ldb_toolchain/bin/clangd",
+  "editor.tabSize": 2,
+  "C_Cpp.autocompleteAddParentheses": false,
+  "commentTranslate.hover.enabled": true
+  
+}
