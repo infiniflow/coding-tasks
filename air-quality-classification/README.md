@@ -1,8 +1,8 @@
 #### Task description
 
-1. Prediction of air quality (Good/Moderate/Hazardous/Poor) based on the data of the given weather indicators (Temperature/Humidity/PM2.5/PM10/NO2/SO2/CO/Proximity to Industrial Areas/Population_Density). Hazardous/Poor).
+1. Prediction of air quality (Good/Moderate/Hazardous/Poor) based on the data of the given weather indicators (Temperature/Humidity/PM2.5/PM10/NO2/SO2/CO/Proximity to Industrial Areas/Population Density).
 2. Give the model training code (Python 3.11), and the trained model.
-3. Support with docker image build and docker compose up one click to start the backend service (Python).
+3. Support with docker image build and `docker compose up` one click to start the backend service (Python 3.11).
 4. You can use the browser to open the page and then enter the value of each indicator (allowed to be empty), submit and return to the prediction results.
 
 #### Dataset
