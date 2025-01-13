@@ -14,3 +14,4 @@
 - [sigmod 2018](https://github.com/infiniflow/coding-tasks/tree/main/sigmod-2018)
 - [simhash-matching](https://github.com/infiniflow/coding-tasks/tree/main/simhash-matching)
 - [wavelet-tree](https://github.com/infiniflow/coding-tasks/tree/main/wavelet-tree)
+- [air-quality-classification](https://github.com/infiniflow/coding-tasks/tree/main/air-quality-classification)
