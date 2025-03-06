@@ -2,7 +2,7 @@
   <img width="187" src="https://user-images.githubusercontent.com/93570324/234292265-889228a8-7a68-4e2d-b891-f75262410af1.png"/>
 </div>
 <h1><p align="center" style="font-size: 32px;">
-    <b>Coding Tasks for Infiniflow Candidates</b>
+    <b>Coding Tasks for InfiniFlow Candidates</b>
   </p></h1>
 
 
