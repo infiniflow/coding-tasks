@@ -20,4 +20,5 @@
   - [wavelet-tree](https://github.com/infiniflow/coding-tasks/tree/main/wavelet-tree)
 - Python coding tasks
   - [air-quality-classification](https://github.com/infiniflow/coding-tasks/tree/main/air-quality-classification)
+- Golang coding tasks
   - [job-scheduler](https://github.com/infiniflow/coding-tasks/tree/main/job-scheduler)
